@@ -1,0 +1,38 @@
+---
+title: "Erika_notes"
+output: html_document
+date: "2024-01-25"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Review of how to clone a remote repository
+
+copy the link to the repository from github.com
+
+Open a Terminal window (Tools > Terminal > New Terminal)
+
+Navigate to appropriate directory to save the repository
+
+  `cd ~erc2866/Development/Repos`
+
+  `git clone <repository url>`
+
+```{r}
+#simple math
+x <- 2
+y <- 3
+z <- x^y
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
