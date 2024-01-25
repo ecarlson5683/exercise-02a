@@ -27,12 +27,5 @@ y <- 3
 z <- x^y
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Questions
+To push up changes, I had to create a new Rproject for exercise-02a repository (I had previously been in the Rproject created in Module 6). Is this necessary? How do I get out of the Rproject into general mode?
